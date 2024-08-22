@@ -1,0 +1,80 @@
+.circle
+{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    
+}
+.class
+{
+    
+    height: 100px;
+    width: 100px;
+    
+}
+.circle p{
+    font-size: 10px;
+    color:black;
+}
+
+.class .p1{
+    font-size: 10px;
+    color:black;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    
+}
+
+.class .p2{
+    font-size: 10px;
+    color:black;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.circle:hover{
+    background-color: rgb(138, 43, 43);
+    border-radius: 50%;
+    transition: background-color 2s linear 1s, border-radius 1s 2s;  
+    margin-left: 200px ;
+    margin-left: 300px;
+    transition: margin-left 3s 1s;
+    transform: rotate(160deg);
+/* you can also use two or more properties in one like gives  */
+
+    /* first property name, duration, timing function, delay */
+    /* if you want all property you can just specify all */
+
+    /* transition: all 1s 1s; */
+
+    /* timing function is how css transitions will be done in what pattern and so on */
+    /* there are properties like esein and ese out eaase in and out and so on do a mdn search on that */
+
+}
+
+.class .p1:hover{
+    background-color: rgb(138, 43, 43);
+    border-radius: 50%;
+    transition: background-color 2s linear 1s, border-radius 1s 2s;  
+    /* margin-left: 200px ;
+    margin-left: 300px; */
+    /* transition: margin-left 3s 1s; */
+    
+}
+.class .p1{
+    transform: translateX(200px);
+}
+    /* transform: rotate(160deg);} */
+.class .p2:hover{
+    background-color: rgb(138, 43, 43);
+    border-radius: 50%;
+    transition: background-color 2s linear 1s, border-radius 1s 1s;  
+    /* margin-left: 200px ;
+    margin-left: 300px;
+    transition: margin-left 3s 1s; */
+    transform:scale(2);
+
+    /* here in transform the scale values are first xaxis then yaxis */
+}
